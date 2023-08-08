@@ -1,0 +1,37 @@
+body {
+    background-color: #FADADD;
+    color:  #000080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;;
+
+}
+h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    text-decoration: overline underline;
+
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+hr {
+    border:5px solid red;
+}
+.hot {
+    letter-spacing: 6px;
+    color: hotpink;
+    font-style: italic;
+    background-color: yellow;
+
+}
+.cold {
+    font-weight: bold;
+    color: #0096FF;
+    background-color:  #ADD8E6;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+/*stylesheet created by Vividha*/
