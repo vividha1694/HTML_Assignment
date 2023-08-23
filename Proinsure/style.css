@@ -75,10 +75,10 @@ body {
             color: #ffffff;
             margin-top: 88px;
         }
-        span {
-            text-decoration: overline #bcb8c4 2px;
+        .line {
             width: 200px;
-            
+            height: 2px;
+            background-color: #bcb8c4;
         }
         .first-heading {
             font-size: 56px;
