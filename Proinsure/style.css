@@ -166,9 +166,9 @@
             height: 48px;
             border-radius: 50%;
             background-color: #8ab4f0;
-            justify-content: centre;
-            align-items: centre;
-            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .third-text {
@@ -189,6 +189,8 @@
         /* FOOTER */
         .footer {
             margin-top: 60px;
+            font-family: 'Karla', sans-serif;
+
         }
         .border {
             border-bottom: 1px solid #6e6b74;
@@ -198,7 +200,7 @@
             margin-left: 32px;
             font-size: 24px;
         }
-        .footer a:hover {
+        .hover:hover {
             color: #2C2641;
         }
         .footer-nav {
@@ -216,4 +218,4 @@
             font-size: 26px;
         
         }
-    
+            
