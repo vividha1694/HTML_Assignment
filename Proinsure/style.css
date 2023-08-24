@@ -1,7 +1,11 @@
 * {
             margin: 0;
             box-sizing: border-box;
-            
+        }
+        body {
+            line-height: 1.5;
+            font-size: 16px;
+
         }
         .container {
             max-width: 1200px;
@@ -16,6 +20,9 @@
         .flex1 {
             flex: 0 1 45%;
         }
+        .align-items {
+            align-items: flex-start;
+        }
 
         /* Header */
         .header {
@@ -24,22 +31,34 @@
             position: fixed;
             top: 0;
             width: 100%;
+            vertical-align: baseline;
+        }
+        .header {
+            display: block;
         }
         .brand {
-            font-size: 36px;
+            font-size:36px;
+            font-weight: 700;
             font-family: 'DM Sans', sans-serif;
             color: #2d2640;
             text-decoration: none;
-            margin-left: 40px;
+        }
+        .brand1 {
+            font-size:36px;
+            font-weight: 700;
+            font-family: 'DM Sans', sans-serif;
+            color: #000000;
+            text-decoration: none;
         }
         .nav a {
             font-size: 20px;
             margin-left: 32px;
-            margin-right: 40px;
             color: #6e6b74;
             text-transform: uppercase;
             font-weight: 700;
             text-decoration: none;
+            font-family: 'Karla', sans-serif;
+            
         }
 
         /* Button */
@@ -51,8 +70,11 @@
             display: inline-block;
             font-size: 20px;
             font-weight: 700;
+            font-family: 'Karla', sans-serif;
+
         }
         .btn:hover {
+            
             background-color: #2C2641;
             color: #ffffff;
         }
@@ -107,6 +129,9 @@
         .padding{
             padding: 80px 0;
         }
+        .margin {
+            margin-top: 80px;
+        }
         .second-heading {
             font-size:48px;
             color: #2d2640;
@@ -145,6 +170,13 @@
             align-items: centre;
             color: #ffffff;
         }
+        
+        .third-text {
+            color: #6e6b74;
+            margin: 32px 0;
+            font-size: 16px;
+            font-family: 'DM Sans', sans-serif;
+        }
 
         /* LAST SECTION */
         .heading-h3 {
@@ -182,6 +214,6 @@
         }
         .facebook-twitter {
             font-size: 26px;
-            color: #6e6b74;
+        
         }
     
