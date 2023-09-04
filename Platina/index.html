@@ -41,15 +41,12 @@
     <section class="container padding">
         <div>
             <h1 class="second_h1">Superb Facilities</h1>
-            <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore et
+            <p class="para margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore et
                 dolore magna aliqua.</p>
             </div>
             <div class="first_gallery">
             <a href="#">
                 <img src="f1.jpg" alt="">
-                <div class="overlay">
-                    <h3>Resort Holiday package</h3>
-                </div>
             </a>
             <a href="#">
                 <img src="f2.jpg" alt="">
@@ -68,7 +65,7 @@
         <div class="block block1">
         <h1 class="block_h1">A very Lovely Welcome <br>
             to our Hotel</h1>
-            <p>
+            <p class="margin1">
                 inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.
             </p>
             <a class="btn btn-second" href="#">Make Package of your own</a>
@@ -79,7 +76,7 @@
     <section class="padding">
         <div>
             <h1 class="second_h1">Superb Facilities</h1>
-            <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore et
+            <p class="para margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore et
                 dolore magna aliqua.</p>
             </div>
             <article class="flex container">
@@ -114,6 +111,7 @@
 
     <!---FIFTH-->
     <section class="padding flex">
+        <div>
         <a href="#">
             <img src="g1.jpg" alt="">
         </a>
@@ -132,20 +130,21 @@
         <a href="#">
             <img src="g6.jpg" alt="">
         </a>
+        </div>
     </section>
 
     <!---SIXTH-->
     <section class="container padding shadow">
         <div>
             <h1 class="second_h1">Book a Room</h1>
-		<p class="para">
+		<p class="para margin">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore  et dolore magna aliqua.
 		</p>
         </div>
         <div class="container flex">
 
-        <div>
-            <form class="booking-form" id="booking" action="booking.php">
+    <div>
+        <form action="booking.php">
             <input type="text" name="fname" class="form form-control" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required="">
             <input id="datepicker" name="arrival" class="form form-control"  onblur="this.placeholder = 'Arrival'" type="text" placeholder="Arrival" required>
 			<select name="room-type" class="select form-control" required>
@@ -154,6 +153,7 @@
 			<option value="2">Room type 2</option>
 		    <option value="3">Room type 3</option>
 			</select>
+
 		    <select name="adults" class="select form-control" required>
 			<option data-display="Adults">Adults</option>
 			<option value="1">1</option>
@@ -161,6 +161,7 @@
 			<option value="3">3</option>
 			</select>
 			</div>
+
 			<div>
 			<input type="text" name="lname" class="form form-control" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required="">
 			<input id="datepicker2" name="departure" class="form form-control"  onblur="this.placeholder = 'Departure'" type="text" placeholder="Departure" required>
@@ -170,6 +171,7 @@
 			<option value="2">2</option>
 			<option value="3">3</option>
 			</select>
+
 			<select name="clild" class="select form-control">
 			<option data-display="Childs">Childs</option>
 			<option value="1">1</option>
@@ -177,17 +179,18 @@
 			<option value="3">3</option>
 			</select>
             </div>
-        </form>
+        
         <div class="message">
-            <textarea class="form form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+            <textarea class="form form-control" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
         </div>
     </div>
+</form>
         <button class="btn2">
             book room
         </button>
     </section>
 
-
+    <!--SEVENTH-->
         <section class="container padding">
             <div class="row">
                 <div class="">
