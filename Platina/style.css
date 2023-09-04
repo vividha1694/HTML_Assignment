@@ -121,21 +121,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: linear-gradient(to top, rgba(246, 46, 113, 0.8) 0%, rgba(249, 171, 114, 0.8) 100%);
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .1s ease;
-    background-color: pink;
-  }
-  .overlay:hover {
-    height: 100%;
-  }
+
 
 
 /* THIRD */
@@ -148,11 +134,16 @@
 }
 .block {
     max-width: 50%;
-    
 }
+.margin1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
 .block_h1 {
     font-size: 30px;
-    /* background: linear-gradient(to top, rgba(246, 46, 113, 0.8), rgba(249, 171, 114, 0.8)); */
+    line-height: 1em;
+    color: linear-gradient(to top, rgba(246, 46, 113, 0.8), rgba(249, 171, 114, 0.8));
 }
 .block1 {
     color: #777777;
@@ -192,9 +183,14 @@ h4 {
 }
 
 /* FIFTH */
-
+.second_gallery {
+    
+}
 
 /* SIXTH */
+.margin {
+    margin-bottom: 100px;
+}
 .form {
     margin-bottom: 30px;
     border-radius: 0;
@@ -221,7 +217,8 @@ h4 {
 }
 .message {
     flex: 0 0 50%;
-    max-width: 50%;
+    width: 50%;
+    
 }
 .shadow {
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
