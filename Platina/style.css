@@ -43,6 +43,11 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+.nav a:hover {
+    background: linear-gradient(to top, rgba(246, 46, 113, 1), rgba(249, 171, 114, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
 /* BUTTON */
 .btn {
@@ -198,20 +203,19 @@ h4 {
 .lnr {
     font-size: 35px;
 }
-.lnr-arrow-right {
-    font-size: 15px;
+.lnr:hover {
+    background: linear-gradient(to top, rgba(246, 46, 113, 1), rgba(249, 171, 114, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 /* FIFTH */
-.row2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
 .container2 {
+    display: flex;
     position: relative;
     margin: 0;
     padding: 0;
+
 }
 .image {
     display: block;
@@ -230,12 +234,12 @@ h4 {
     background-image:linear-gradient(to top, rgba(246, 46, 113, 0.9) 0%, rgba(249, 171, 114, 1) 100%);
 
 }
-.container2:hover .overlay {
+.overlay:hover {
     opacity: 0.8;
 }
 .text {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -277,7 +281,12 @@ h4 {
 .message {
     flex: 0 0 50%;
     width: 50%;
-    
+}
+.lnr-arrow-right {
+    font-size: 15px;
+}
+.lnr-arrow-right:hover {
+    transition: all 0.3s ease 0s;
 }
 .shadow {
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
