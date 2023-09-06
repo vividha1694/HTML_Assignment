@@ -314,9 +314,18 @@ h6 {
     line-height: 1.625em;
     font-family: 'Poppins', sans-serif;
 }
-ul {
-    list-style-type: none;
+.second_gallery {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.div-child {
+    flex: 1;
+}
+.img-footer{
+    max-width: 100%;
+    height: auto;
+    display:block;
 }
 .para-footer {
     margin-top: 80px;
