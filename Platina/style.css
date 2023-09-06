@@ -7,6 +7,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 32px;
+    
 }
 
 .flex {
@@ -51,17 +52,21 @@
 
 /* BUTTON */
 .btn {
-    padding: 12px 18px;
+    padding: 10px 25px;
     color: #000000;
     border: 1px solid #ffffff;
-    border-radius: 30px;
+    border-radius: 28px;
     display: inline-block;
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    
+}
+.btn:hover {
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
 }
 .btn2 {
     padding: 12px 35px;
@@ -290,6 +295,11 @@ h4 {
 }
 .shadow {
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+}
+
+/* SEVENTH */
+.center {
+    text-align: center;
 }
 
 /* FOOTER */
