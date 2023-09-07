@@ -341,7 +341,7 @@ h6 {
 .second_gallery {
     display: flex;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 250px;
 }
 .div-child {
     flex: 1;
