@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 3px;
+        }
+
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body><h1>Dog D.Dog</h1>
+    <h2 style="color:darkblue;background-color:lightskyblue;">
+      <img src="dog.jpg" alt="dog" style="float:right;width:290px;height:310px;">About</h2>
+    <p>Woof woof!</p>
+    <p>Hi,I'm Dog.I love <span style="color:dodgerblue">User Interface Design</span>.</p>
+    <h2 style="color:darkblue;background-color:lightskyblue;">Courses</h2>
+    <p>Here are some courses i've taken:</p>
+    <table>
+        <tr>
+            <th>Course Number</th>
+            <th>Course Title</th>
+            <th>Semester Task</th>
+        </tr>
+        <tr>
+            <th colspan="3"><b>For Credit</b></th>
+        </tr>
+        <tr style="color:darkblue;background-color:lightskyblue;">
+            <td>6.813</td>
+            <td style="color:darkblue;">User Interface Design</td>
+            <td style="color:darkblue;">Spring 2014</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue;">6.034</td>
+            <td>Artificial Intelligence</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr style="background-color:lightskyblue;">
+            <td style="color:darkblue;">6.006</td>
+            <td>Introduction to Algorithms</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr display=inline; align=center>
+            <td border="1" colspan="3" align="centre"><b>Listener</b></td>
+        </tr>
+        <tr  style="background-color:lightskyblue;">
+            <td style="color:darkblue;">6.867</td>
+            <td>Machine Learning</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue;">6.830</td>
+            <td>Database Systems</td>
+            <td>Fall 2012</td>
+        </tr>
+    </table>
+    <br>
+    <h2 style="color:darkblue;background-color:lightskyblue;">Interest</h2>
+    <p>I am interested <b>HCI</b>,<span style="font-style:italic;">memes</span>, and <span style="font-style:italic;">youtube videos</span>.</p>
+    <h2 style="color:darkblue;background-color:lightskyblue;">Submit Pet Information</h2>
+    <p>Would love to know what kinds of pets you 'own'(you'll never own me).submit below!</p>
+    <br>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value=""><br><br>
+        <label for="phylum">Phylum:</label>
+        <input type="text" id="phylum" name="phylum" value=""><br><br>
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+</body>
+</html>
