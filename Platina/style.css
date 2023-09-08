@@ -302,9 +302,14 @@ h4 {
 .lnr-arrow-right {
     font-size: 15px;
 }
-.move:hover{
-    transition: 0.3s ease-in;
-    transform: translateX(50px);
+span {
+    display: inline-block;
+}
+
+div.move:hover .btn2 span{
+    transform: translate(10px);
+    transition: .3s ease-in;
+    
 }
 .shadow {
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
@@ -349,7 +354,7 @@ h6 {
     padding: 5px;
     box-sizing: border-box;
 }
- .img-footer{
+.img-footer{
     min-width: 100%;
     height: auto;
     display: block;
@@ -369,4 +374,7 @@ h6 {
 .last-btn {
     background-image:linear-gradient(to top, rgba(246, 46, 113, 0.9), rgba(249, 171, 114, 1));
     border-radius: 1px;
+}
+.submit {
+    color: #777;
 }
