@@ -210,7 +210,7 @@
                 <form action="booking.php">
                     <input type="text" name="fname" class="form form-control" placeholder="First Name"
                         onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required="">
-                    <input id="datepicker" name="arrival" class="form form-control"
+                    <input name="arrival" class="form form-control"
                         onblur="this.placeholder = 'Arrival'" type="text" placeholder="Arrival" required>
                     <select name="room-type" class="select form-control" required>
                         <option data-display="Room Type">Room Type</option>
@@ -230,7 +230,7 @@
             <div>
                 <input type="text" name="lname" class="form form-control" placeholder="Last Name"
                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required="">
-                <input id="datepicker2" name="departure" class="form form-control"
+                <input name="departure" class="form form-control"
                     onblur="this.placeholder = 'Departure'" type="text" placeholder="Departure" required>
                 <select name="no-room" class="select form-control" required>
                     <option data-display="Number Of Rooms">Number Of Rooms</option>
@@ -255,8 +255,9 @@
         </form>
         <div class="move">
             <button class="btn2">
-                book room &nbsp;<span class="lnr lnr-arrow-right"></span>
+                book room &nbsp;    <span class="lnr lnr-arrow-right"></span>
             </button>
+           
         </div>
     </section>
 
@@ -315,7 +316,7 @@
                 <p class="para2">Stay update with our latest</p>
                 <br>
 
-                <form target="_blank" novalidate="true" action="/action.php" method="get">
+                <form target="_blank"  action="/action.php" method="get">
 
                     <div class="flex">
 
@@ -324,7 +325,7 @@
                             type="email">
 
 
-                        <button class="btn last-btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        <button onclick="myFunction()" class="btn last-btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
                                 viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                 <style>
                                     svg {
@@ -334,6 +335,12 @@
                                 <path
                                     d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                             </svg></button>
+                            <p id="submit" class="submit"></p>
+                            <script>
+                                function myFunction() {
+                                    document.getElementById("submit").innerHTML="Submitting...";
+                                }
+                            </script>
                     </div>
                 </form>
             </div>
