@@ -11,15 +11,12 @@
     display: flex;
     justify-content: space-between;
 }
-.flex1 {
-    flex: 150%;
-}
 
 
 /* HEADER */
 .header {
     padding: 16px 0;
-    background-color: #ffffff;
+    background-color: lightgray;
     width: 100%;
     vertical-align: baseline;
     color: crimson;
@@ -59,6 +56,9 @@
 
 /* SECTIONS */
 /* FIRST */
+.first-back {
+    background-color: lightgray;
+}
 .h1 {
     padding: 20px;
     font-size: 60px;
@@ -68,7 +68,6 @@
 .padding {
     margin-top: 60px 0;
 }
-
 .para {
     font-size: 14px;
     color: #6e6b74;
@@ -86,10 +85,7 @@ img {
     background-size: cover;
     width:100%;
     margin-top: 30px;
-}
-.img2 {
-    margin-top: 50px;
-    margin-bottom:50px;
+    padding: 50px 0;
 }
 .h1-about {
     color: #6e6b74;
@@ -109,7 +105,6 @@ img {
     width: 450px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 /* THIRD */
@@ -120,12 +115,15 @@ img {
     font-family: 'Poppins', sans-serif;
 }
 .para3 {
-    color: #777777;
+    color: #6e6b74;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
@@ -196,7 +194,13 @@ img {
 .h2-footer {
     padding: 50px;
     font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
 }
+.last-para {
+    margin-top: 50px;
+    color: lightslategray;
+}
+
 
 
 
