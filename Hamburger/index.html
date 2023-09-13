@@ -1,186 +1,188 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
-    <title>CAFE MENU</title>
-
-    <style>
-        body {
-           background-color: goldenrod; 
-        }
-        .container {
-            max-width :1100px;
-            padding: 0 auto;
-            margin: 0 100px;
-        }
-        .flex{
-            display: flex;
-            justify-content: space-around; 
-        }
-        
-        h2  {
-            font-size: 16px;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        p {
-            color: #222;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            display: inline-block;
-            width: 40%;
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 15px;
-            text-transform: uppercase;
-            text-align: center;
-        }
-        .card {
-            width:30%;
-            background-color: #ffffff;
-            border: none;
-            border-radius: 30px;
-            margin-right: 30px;
-            margin-left: 30px;
-            margin-top: 50px;
-        }
-        .padding {
-            padding: 10px 14px;
-        }
-        .center {
-            margin-left: 90px;
-        }
-        img {
-            height: 40px;
-            text-align: center;
-            margin-left: 150px;
-            margin-right: 150px;
-            margin-top: 10px;
-            
-
-        }
-        hr{
-            height: 2px;
-            background-color: goldenrod;
-        }
-        .link {
-            margin-left: 130px;
-            color: #222;
-            width: 20%;
-        }
-        .link:hover {
-            color: goldenrod;
-        }
-        
-    </style>
+    <title>Hamburger</title>
+    <link rel="icon" type="image/x-icon" href="burger-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <!--HEADER-->
+    <header class="header">
+        <div class="container flex">
+            <h1 class="brand">Hamburger</h1>
+            <nav class="nav">
+                <a href="#"><span class="red">home</span></a>
+                <a href="#">foods</a>
+                <a href="#">blogs</a>
+                <a href="#">about us</a>
+            </nav>
+        </div>
+    </header>
 
-    <section class="container flex">
-        <article class="card">
-            <h2>Pastries</h2>
-            <i class="center">Life is short,eat desert first!</i>
-            <div><img src="bread.png" alt=""></div>
-            <hr>
-                    <h2>Bread</h2>
-                    <div>
-                        <p>baguette</p>
-                        <p>120.00</p>
-                    </div>
-                    <div>
-                        <p>bagel</p>
-                        <p>120.00</p>
-                    </div>
-                    <div>
-                        <p>english muffin</p>
-                        <p>110.00</p>
-                    </div>
-                        
-                    <h2>Pie</h2>
-                    <div>
-                        <p>pumpkin pie</p>
-                        <p>350.00</p>
-                    </div>
-                    <div>
-                        <p>blueberry pie</p>
-                        <p>405.00</p>
-                    </div>
-                    <div>
-                        <p>raspberry pie</p>
-                        <p>360.00</p>
-                    </div>
-            <hr>
-            <a class="link" href="#">Order now!</a>      
-        </article>
-
-        <article class="card">
-            <h2>Pastries</h2>
-            <i class="center">Drinks from heaven</i>
-            <div><img src="coffee-cup.png" alt=""></div>
-            <hr>
-                    <h2>Hot</h2>
-                    <div>
-                        <p>baraco</p>
-                        <p>100.00</p>
-                    </div>
-                    <div>
-                        <p>espresso</p>
-                        <p>100.00</p>
-                    </div>
-                    <div>
-                        <p>white mocha</p>
-                        <p>110.00</p>
-                    </div>
-                        
-                    <h2>Cold</h2>
-                    <div>
-                        <p>frappucino</p>
-                        <p>100.00</p>
-                    </div>
-                    <div>
-                        <p>matcha</p>
-                        <p>105.00</p>
-                    </div>
-                    <div>
-                        <p>iced americano</p>
-                        <p>100.00</p>
-                    </div>
-            <hr>
-            <a class="link" href="#">Order now!</a>      
-        </article>
-                    
-        <article class="card">
-            <h2>Pastries</h2>
-            <i class="center">Life is short,eat desert first!</i>
-            <div><img src="snack.png" alt=""></div>
-            <hr>
-                    <h2>Fhilipino</h2>
-                    <div>
-                        <p>lampiang sanghai</p>
-                        <p>200.00</p>
-                    </div>
-                    <div>
-                        <p>mani</p>
-                        <p>80.00</p>
-                    </div>
-                    <div>
-                        <p>turon</p>
-                        <p>110.00</p>
-                    </div>
-                        
-                    <h2>Mexican</h2>
-                    <div>
-                        <p>nachos</p>
-                        <p>100.00</p>
-                    </div>
-                    <div>
-                        <p>burrito</p>
-                        <p>200.00</p>
-                    </div>
-                    <div>
-                        <p>tamales</p>
-                        <p>95.00</p>
-                    </div>
-            <hr>
-            <a class="link" href="#">Order now!</a>      
+    <!--SECTIONS-->
+    <!--FIRST-->
+    <section class="first-back">
+        <article class="container margin-first">
+        <div class="flex">
+            <div>
+                <h1 class="h1">Be the fastest in delivering <span class="red">your food</span></h1>
+                <p class="para1">A hamburger (also burger for shorts) is a food,
+                    typically considered a sandwich, consisting of one or
+                    more cooked patties of ground meat, usually beef,
+                    placed inside a sliced bread roll or bun.
+                </p>
+                <a class="btn btn-margin" href="#">Order Food</a>
+            </div>
+            <div>
+                <img src="burger.jpg" alt="">
+            </div>
+            </div>
         </article>
     </section>
+
+    <!--SECOND-->
+    <section class="flex bg">
+        <div class="second">
+            <img class="img2" src="about-team.png" alt="">
+        </div>
+        <div class="second">
+            <h1 class="h1-about">About Us</h1>
+            <p class="para2">Teamwork is working together of people to achieve a
+                certain goal. Teamwork is the basic need for an
+                organization to funtion. Furthermore, every organization
+                has a division of several teams to perform specific tasks.
+                Without teamwork nothing is possible. So we are doing
+                team work over 2years and giving more facilities in our
+                Hamburger shop.
+            </p>
+            <a class="btn btn-margin2" href="#">Contact Us</a>
+        </div>
+    </section>
+
+    <!--THIRD-->
+    <section class="container margin">
+        <h1 class="h1-third">Our Recipies</h1>
+        <p class="para3">Simply sharing a table or insights about one another's food culture helps
+            unmask our common humanity. The universal language of food is a unifying
+            force.
+        </p>
+
+        <article class="flex card-margin">
+        <div class="card box-img">
+            <img class="img-burger" src="burger-recipie0-min.jpg" alt="">
+            <div class="box">
+            <h3 class="h3">Veggie Burger</h3>
+            <p class="para">A veggie burger is a burger
+                patty that does not contain
+                meat. These burgers may be
+                made from ingredients like
+                beans, especially soyabeans and
+                tofu,nuts,grains,seeds or fungi
+                such as mushrooms or
+                mycocoprotein.
+            </p>
+            </div>
+        </div>
+
+        <div class="card box-img">
+            <img class="img-burger" src="burger-recipie1-min.jpg" alt="">
+            <div class="box">
+            <h3 class="h3">Beef Burgers</h3>
+            <p class="para">These stacked beef burgers are
+                a BBQ favourite & are really
+                easy-to-make. Find this
+                homemade burger receipe &
+                loads more BBQ reciepes at Tesco
+                Real Food.
+            </p>
+            </div>
+        </div>
+
+        <div class="card box-img">
+            <img class="img-burger" src="burger-recipie3-min.jpg" alt="">
+            <div class="box">
+            <h3 class="h3">Turkey Burgers</h3>
+            <p class="para">Turkey burgers are much lenear
+                than hamburgers,but they can
+                be dry and dull Moisten them by
+                adding ketchup and a bit of
+                grated onion to the ground
+                Turkey.
+            </p>
+            </div>
+        </div>
+        </article>
+    </section>
+
+    <!--FOURTH-->
+    <section class="container margin">
+        <h1 class="h1-third">Your Food Delivery Partner</h1>
+        <p class="para3">Fast Deliver is a fast growing and promising courier and
+            parcel sevice in Bangladesh. With excellent customer service.
+        </p>
+        <article class="flex margin">
+        <div class="card1">
+            <img src="easy-order.jpg" alt="">
+            <div class="box1">
+            <h3>Easy To Order</h3>
+            </div>
+        </div>
+        <div class="card1">
+            <img src="fdelivery.jpg" alt="">
+            <div class="box1">
+            <h3>Fastest Delivery</h3>
+            </div>
+        </div>
+        <div class="card1">
+            <img style="margin-top: 27px;" src="quality.jpg" alt="">
+            <div class="box1">
+            <h3>Best Quality</h3>
+        </div>
+        </div>
+        </article>
+    </section>
+
+    <!--FIFTH-->
+    <section class="container card3">
+        <article class="flex">
+        <div class="position">
+            <h1>700K</h1>
+            <P class="para">Youtube Subscriber</P>
+          </div>
+          <div class="position">
+            <h1>2.4M</h1>
+            <P class="para">Instagram Subscriber</P>
+          </div>
+          <div class="position">
+            <h1>100K</h1>
+            <p class="para">Dribble Shots Likes</p>
+          </div>
+        </article>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="black margin">
+        <div class="container">
+        <h2 class="h2-footer"><span class="red">Hamburger</span> World</h2>
+        <p class="para">Eat healthy to live healthy.Live healthy to live healthy</p>
+        <p class="para last-para">&copy;2023 All Rights Reserved By Al Siman World</p>
+        </div>
+    </footer>
+    
+
+
+
+</body>
+
+</html>
