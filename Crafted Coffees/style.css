@@ -19,6 +19,7 @@ a {
     padding: 20px 32px;
 }
 
+/* HEADER */
 .header {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(Cafe3.jpeg) center/cover no-repeat;
@@ -33,4 +34,43 @@ a {
     font-size: medium;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #ffffff ;
+    letter-spacing: 4px;
+    margin-top: 15%;
+}
+.heading h3 {
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ font-size: 35px;
+ color: #ffffff;
+ letter-spacing: 4px;
+}
+
+/* SECTIONS */
+/* FIRST */
+.container2 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+.first {
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #bd1220;
+    padding: 20px;
+}
+.container2:hover {
+    background:#52080e;
+    opacity: 1.2;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
 
