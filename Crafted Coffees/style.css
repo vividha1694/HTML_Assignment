@@ -62,6 +62,7 @@ a {
 .first {
     letter-spacing: 7px;
     text-transform: uppercase;
+    align-items: baseline;
     font-size: 16px;
     color: #bd1220;
     padding: 20px;
