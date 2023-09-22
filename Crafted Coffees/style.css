@@ -23,7 +23,7 @@ a {
 /* HEADER */
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(https://hetshah23.github.io/Coffee-Shop-Website/Cafe3.jpeg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('Cafe3.jpeg') center/cover no-repeat;
     background-attachment: fixed;
 }
 .divider {
@@ -134,11 +134,28 @@ a {
 .menu_bg {
     height: 40vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./Cafe1.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('Cafe1.jpg') center/cover no-repeat;
     position: relative;
     background-attachment: fixed;
     margin-top: 80px;
 }
-
-
-
+/*.third_h {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}*/
+.third_h h1 {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: #bd1220;
+    font-size: 50px;
+}
+.third_h h3 {
+    font-size: 60px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    color: #f8f9fa;
+}
