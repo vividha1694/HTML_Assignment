@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     line-height: 1.5;
     background-color: #E0E5EC;
@@ -73,6 +74,7 @@ a {
     font-size: 16px;
     color: #bd1220;
     padding: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 .first_h {
     padding: 10px;
@@ -109,6 +111,8 @@ a {
 }
 .second_h {
     color: #bd1220;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
 }
 .second_p{
     margin: 1rem 0;
@@ -125,5 +129,16 @@ a {
     background-color: #bd1220;
     color: white;
 }
+
+/* THIRD */
+.menu_bg {
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./Cafe1.jpg) center/cover no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    margin-top: 80px;
+}
+
 
 
