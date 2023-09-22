@@ -113,6 +113,7 @@ a {
 .second_p{
     margin: 1rem 0;
     max-width: 26rem;
+    font-size: 16px;
 }
 .btn {
     padding: 10px 30px;
