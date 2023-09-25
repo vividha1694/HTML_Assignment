@@ -23,7 +23,7 @@ a {
 /* HEADER */
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('Crafted Coffees/Cafe3.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("/Crafted Coffees/Cafe3.jpeg") center/cover no-repeat;
     background-attachment: fixed;
 }
 .divider {
